@@ -1,4 +1,4 @@
-const CACHE_NAME = "tafsirq";
+const CACHE_NAME = "tafsirq-1";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -10,6 +10,7 @@ var urlsToCache = [
   "/js/materialize.min.js",
   "/js/nav.js",
   "/img/logo-tafsirq.png",
+  "/img/banner.jpg",
 ];
 
 self.addEventListener("install", function (event) {
