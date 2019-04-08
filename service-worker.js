@@ -1,25 +1,27 @@
-const CACHE_NAME = "tafsirq-1";
+const CACHE_NAME = "tafsirq-3";
 var urlsToCache = [
   "/",
+  "/favicon.ico",
   "/nav.html",
   "/index.html",
+  "/pages/doa.html",
+  "/pages/hadits.html",
   "/pages/home.html",
-  "/pages/about.html",
-  "/pages/contact.html",
+  "/pages/quran.html",
   "/css/materialize.min.css",
   "/js/materialize.min.js",
   "/js/nav.js",
   "/img/logo-tafsirq.png",
   "/img/banner.jpg",
   "/img/doa-orang-tua.jpg",
-  "icon-72x72.png",
-  "icon-96x96.png",
-  "icon-128x128.png",
-  "icon-144x144.png",
-  "icon-152x152.png",
-  "icon-192x192.png",
-  "icon-384x384.png",
-  "icon-512x512.png"
+  "/img/icons/icon-72x72.png",
+  "/img/icons/icon-96x96.png",
+  "/img/icons/icon-128x128.png",
+  "/img/icons/icon-144x144.png",
+  "/img/icons/icon-152x152.png",
+  "/img/icons/icon-192x192.png",
+  "/img/icons/icon-384x384.png",
+  "/img/icons/icon-512x512.png"
 ];
 
 self.addEventListener("install", function (event) {
