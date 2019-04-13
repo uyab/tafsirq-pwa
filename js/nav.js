@@ -55,6 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     xhttp.open("GET", "pages/" + page + ".html", true);
     xhttp.send();
+
+    if (page === 'artikel') {
+      getArtikel();
+    }
   }
 
 });
